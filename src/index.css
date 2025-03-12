@@ -54,6 +54,33 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+
+
+
+/* .bg-container 클래스 */
+.bg-container {
+  height: 100vh; /* 전체 화면 높이 */
+  width: 100vw;  /* 전체 화면 너비 */
+  background-image: url('/img/back4.jpg'); /* 배경 이미지 */
+  background-size: contain; /* 배경 이미지가 화면을 채우도록 설정 */
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container {
+  height: 890px;
+  width: 1780px;
+  background-color: antiquewhite;
+  background-position: center;
+  border-radius: 50%;
+}
+
+
+
+
+/* media query */
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
